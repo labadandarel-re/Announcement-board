@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Announcement Board</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="card">
+        <h1>📢 Announcement Board</h1>
+        <p class="subtitle">Share something with everyone!</p>
+
+        <input type="text" id="messageInput" placeholder="Type your announcement here...">
+
+        <button id="postBtn" onclick="postAnnouncement()">Post Announcement</button>
+
+        <h3>Latest Announcement</h3>
+        <div id="outputBox" class="output"></div>
+    </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
